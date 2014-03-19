@@ -1,0 +1,7 @@
+#! /bin/sh
+##
+# rt2870 Make Network Faster
+##
+
+ modprobe -r rt2800usb
+ modprobe rt2800usb nohwcrypt=Y
